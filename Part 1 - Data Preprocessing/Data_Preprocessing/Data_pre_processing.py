@@ -38,3 +38,6 @@ from sklearn.preprocessing import StandardScaler
 sc_X=StandardScaler()
 X_train=sc_X.fit_transform(X_train)
 X_test=sc_X.fit_transform(X_test)
+
+sc_Y = StandardScaler()
+Y_train = sc_Y.fit_transform(Y_train)"""
